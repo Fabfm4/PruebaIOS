@@ -14,6 +14,8 @@
 		430252EE1DE55F4300A18334 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 430252EC1DE55F4300A18334 /* LaunchScreen.storyboard */; };
 		430252F91DE55F4300A18334 /* Prueba1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430252F81DE55F4300A18334 /* Prueba1Tests.swift */; };
 		430253041DE55F4300A18334 /* Prueba1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430253031DE55F4300A18334 /* Prueba1UITests.swift */; };
+		430253161DE560E600A18334 /* WeatherAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430253151DE560E600A18334 /* WeatherAPI.swift */; };
+		430253181DE5643F00A18334 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430253171DE5643F00A18334 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		430252FF1DE55F4300A18334 /* Prueba1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Prueba1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		430253031DE55F4300A18334 /* Prueba1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prueba1UITests.swift; sourceTree = "<group>"; };
 		430253051DE55F4300A18334 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		430253151DE560E600A18334 /* WeatherAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherAPI.swift; sourceTree = "<group>"; };
+		430253171DE5643F00A18334 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				430252EA1DE55F4300A18334 /* Assets.xcassets */,
 				430252EC1DE55F4300A18334 /* LaunchScreen.storyboard */,
 				430252EF1DE55F4300A18334 /* Info.plist */,
+				430253151DE560E600A18334 /* WeatherAPI.swift */,
+				430253171DE5643F00A18334 /* Constants.swift */,
 			);
 			path = Prueba1;
 			sourceTree = "<group>";
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				430253161DE560E600A18334 /* WeatherAPI.swift in Sources */,
 				430252E61DE55F4300A18334 /* ViewController.swift in Sources */,
 				430252E41DE55F4300A18334 /* AppDelegate.swift in Sources */,
+				430253181DE5643F00A18334 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
